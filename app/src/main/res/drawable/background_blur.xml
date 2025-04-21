@@ -1,0 +1,18 @@
+<!-- res/drawable/background_white_overlay.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Transparent Background Image -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splashbg" />
+    </item>
+
+    <!-- White Overlay with Light Blue Color (#3D7EDA) and Some Transparency -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#803D7EDA" />
+        </shape>
+    </item>
+
+</layer-list>

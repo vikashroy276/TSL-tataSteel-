@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_35sdp">
+
+    <TextView
+        android:id="@+id/snotxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".22"
+        android:gravity="center|start"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_2sdp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/usernametxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".18"
+        android:gravity="center|start"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/datetimetxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".11"
+        android:gravity="center"
+        android:paddingStart="@dimen/_1sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>

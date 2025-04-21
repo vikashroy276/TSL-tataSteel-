@@ -1,0 +1,5 @@
+<!-- res/drawable/tab_selected_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorPrimary" android:state_selected="true"/>
+    <item android:drawable="@android:color/transparent"/>
+</selector>
